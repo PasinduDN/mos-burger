@@ -1,0 +1,33 @@
+/* .hero-image {
+    background-image: url('/ASSERT/img/burger-3962997_1280.jpg');
+} */
+
+.box-1 {
+    /* padding-left: 1px; */
+    /* padding-bottom: 5px; */
+    padding-top: 20px;
+    /* padding-right: 50px; */
+    background-color: #2d404d;
+    margin-left: 5px;
+    /* margin-right: 5px; */
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+    color: #dbc0c0;
+
+}
+
+.backGround-color01 {
+    background-color: #2d404d;
+}
+
+.img-size {
+    padding-left: 20px;
+}
+
+.white-font-setting {
+    color: rgb(255, 255, 255);
+}
+
+.table-allign {
+    text-align: center
+}

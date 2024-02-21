@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOSBurger</title>
+    <link rel="stylesheet" href="CSS/sideBarStyle.css">
+    <link rel="stylesheet" href="CSS/dashBoardStyle.css">
+    <link rel="stylesheet" href="CSS/storesStyles.css">
+    <link rel="stylesheet" href="CSS/saleDashboard.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div id="root">
+
+        <nav id="main-nav " class="sidebar font-details bg-dark">
+            <a></a>
+            <a class="sideBar-Text" onclick="load('dashboard')">DashBoard</a>
+            <a class="sideBar-Text" onclick="load('sales')">Sales</a>
+            <a class="sideBar-Text" onclick="load('store')">Stores</a>
+            <a class="sideBar-Text" onclick="load('customer')">Customers</a>
+        </nav>
+
+        <div id="main-page">
+
+            <!-- DashBoard-Open ############## -->
+            <div id="section-dashboard">
+                <div class="container-fluid ">
+
+                    <div class="row"></div>
+                    <h4 class="page-Label pt-4">DashBoard</h4>
+                    <div class="row pt-3 ">
+
+                        <div class="col col-sm-2.5  box-1 ">
+                            <p class="text-center">Today Sales</p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-sm-2.5  box-1">
+                            <p class="text-center">Expired</p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-sm-2.5  box-1">
+                            <p class="text-center">Today Invoice</p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-sm-2.5  box-1">
+                            <p class="text-center">New Products</p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="row ">
+
+                        <div class="col col-sm-2.5  box-1">
+                            <p class="text-center">Daily Profit</p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-sm-2.5  box-1">
+                            <p class="text-center">Weekly Profit</p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-sm-2.5  box-1">
+                            <p class="text-center">Current Month Profit </p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col col-sm-2.5  box-1">
+                            <p class="text-center">Current Year Profit</p>
+                            <div class="row">
+                                <div class="col img-size">
+                                    <img src="ASSERT/icon/dollar-symbol.png" width="30" height="30" alt="">
+                                </div>
+                                <div class="col">
+                                    <p> Comming Soon.. </p>
+                                </div>
+                                <div class="col">
+                                    <!-- <p> Hello 2</p> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!-- Sales-Open ############# -->
+            <div id="section-sales" class=" container">
+                <div class="row ">
+                    <div class="col-sm-8 pt-3">
+                        <div class=" bg-light">
+                            Order #88 <small class="text-muted page-Label"> Today, 20 Mar 2021, 02:34 PM </small>
+                        </div>
+                        <div>
+                            <ul class="nav nav-pills mb-3 mt-4 " id="pills-tab" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-Burgers-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Burgers" type="button" role="tab"
+                                        aria-controls="pills-Burgers" aria-selected="true">Burgers</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-Submarines-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Submarines" type="button" role="tab"
+                                        aria-controls="pills-Submarines" aria-selected="false">Submarines</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-Fies-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Fies" type="button" role="tab" aria-controls="pills-Fies"
+                                        aria-selected="false">Fies</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-Pasta-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Pasta" type="button" role="tab"
+                                        aria-controls="pills-Pasta" aria-selected="false">Pasta</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-Chicken-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Chicken" type="button" role="tab"
+                                        aria-controls="pills-Chicken" aria-selected="false">Chicken</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-Beverages-tab" data-bs-toggle="pill"
+                                        data-bs-target="#pills-Beverages" type="button" role="tab"
+                                        aria-controls="pills-Beverages" aria-selected="false">Beverages</button>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content" id="pills-tabcontent">
+
+                                <div class="tab-pane fade show active page-Label" id="pills-Burgers" role="tabpanel"
+                                    aria-labelledby="pills-Burgers-tab">
+                                    <div class="row page-Label backGround-color01 white-font-setting pt-3 pb-3 m-1">
+                                        <table id="sales-Burgers-table" class="table-dark table-allign overflow-x:auto">
+                                            <tr>
+                                                <th>Code</th>
+                                                <th>Name</th>
+                                                <th>Quantity</th>
+                                                <th>ExpireDate</th>
+                                                <th>Discount</th>
+                                                <th>Action </th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade page-Label" id="pills-Submarines" role="tabpanel"
+                                    aria-labelledby="pills-Submarines-tab">
+                                    <div class="row page-Label backGround-color01 pt-3 pb-3 m-1">
+                                        <table id="sales-Submarines-dashboard"
+                                            class="table-dark table-allign overflow-x:auto">
+                                            <tr>
+                                                <th>Code</th>
+                                                <th>Name</th>
+                                                <th>Quantity</th>
+                                                <th>ExpireDate</th>
+                                                <th>Discount</th>
+                                                <th>Action </th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade page-Label" id="pills-Fies" role="tabpanel"
+                                    aria-labelledby="pills-Fies-tab">
+                                    <div class="row page-Label backGround-color01 pt-3 pb-3 m-1">
+                                        <table id="sales-Fies-dashboard"
+                                            class="table-dark table-allign overflow-x:auto">
+                                            <tr>
+                                                <th>Code</th>
+                                                <th>Name</th>
+                                                <th>Quantity</th>
+                                                <th>ExpireDate</th>
+                                                <th>Discount</th>
+                                                <th>Action </th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade page-Label" id="pills-Pasta" role="tabpanel"
+                                    aria-labelledby="pills-Pasta-tab">
+                                    <div class="row page-Label backGround-color01 pt-3 pb-3 m-1">
+                                        <table id="sales-Pasta-dashboard"
+                                            class="table-dark table-allign overflow-x:auto">
+                                            <tr>
+                                                <th>Code</th>
+                                                <th>Name</th>
+                                                <th>Quantity</th>
+                                                <th>ExpireDate</th>
+                                                <th>Discount</th>
+                                                <th>Action </th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade page-Label" id="pills-Chicken" role="tabpanel"
+                                    aria-labelledby="pills-Chicken-tab">
+                                    <div class="row page-Label backGround-color01 pt-3 pb-3 m-1">
+                                        <table id="sales-Chicken-dashboard"
+                                            class="table-dark table-allign overflow-x:auto">
+                                            <tr>
+                                                <th>Code</th>
+                                                <th>Name</th>
+                                                <th>Quantity</th>
+                                                <th>ExpireDate</th>
+                                                <th>Discount</th>
+                                                <th>Action </th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade page-Label" id="pills-Beverages" role="tabpanel"
+                                    aria-labelledby="pills-Beverages-tab">
+                                    <div class="row page-Label backGround-color01 pt-3 pb-3 m-1">
+                                        <table id="sales-Beverages-dashboard"
+                                            class="table-dark table-allign overflow-x:auto">
+                                            <tr>
+                                                <th>Code</th>
+                                                <th>Name</th>
+                                                <th>Quantity</th>
+                                                <th>ExpireDate</th>
+                                                <th>Discount</th>
+                                                <th>Action </th>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 pt-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>Order</h5>
+                                <hr>
+
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search Customer"
+                                        id="searchInput" oninput="showSuggestions()">
+                                    <button class="btn btn-secondary" type="button">
+                                        Search
+                                    </button>
+                                </div>
+                                <div id="suggestions"></div>
+
+                                <table id="order-purchase-table" class="table table-striped table-hover mt-3">
+                                    <tr>
+                                        <th> Item </th>
+                                        <th> price </th>
+                                        <th> Quantity </th>
+                                        <th> Amount </th>
+                                    </tr>
+                                </table>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <!-- Row 01
+                    <div class="row pt-3">
+                        <h4 class="page-Label pt-3">Sales Dashboard</h4>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="input-group mb-3 mt-3">
+                            <input type="text" class="form-control" placeholder="Product name" id="productName">
+                            <input type="number" class="form-control" placeholder="Price" id="productPrice">
+                            <input type="number" class="form-control" placeholder="Quantity" id="productQuantity">
+                            <div class="input-group-append">
+                                <button class="btn btn-success" type="button" onclick="addProduct()">Add</button>
+                            </div>
+                        </div>
+
+                        <button class="btn btn-primary btn-checkout " data-toggle="modal"
+                            data-target="#checkoutModal">Checkout</button>
+
+                    </div>
+
+                    Product List
+                    <ul class="product-list" id="productList">
+                    </ul>
+
+                </div> -->
+
+            </div>
+
+            <!-- Stores-Open ############ -->
+            <div id="section-store">
+                <div class="container-fluid">
+
+                    <!-- Row 01 -->
+                    <div class="row pt-3">
+                        <h4 class="page-Label pt-3">Stores</h4>
+                    </div>
+
+                    <!-- Row 02 -->
+                    <div class="row page-Label  pt-3 pb-3 m-1">
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <h5> Product List</h5>
+                        </div>
+                        <div class="col-5"></div>
+                        <div class="col-3">
+                            <button class="p-3 bg-primary white-font-setting border border-info rounded "
+                                onclick='openWindow()'>
+                                + Add New Product </button>
+                        </div>
+                    </div>
+
+                    <div id='popUpWindow' class="popUpWindow">
+                        <div class="my-modal">
+                            <label for="code">Code:</label>
+                            <input type="text" id="code">
+                            <br>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name">
+                            <br>
+                            <label for="category">Category:</label>
+                            <select name="Items" id="category">
+                                <option value="burgers">Burgers</option>
+                                <option value="submarines">Submarines</option>
+                                <option value="fies">Fies</option>
+                                <option value="pasta">Pasta</option>
+                                <option value="chicken">Chicken</option>
+                                <option value="beverages">Beverages</option>
+                            </select>
+                            <!-- <input type="text" id="category"> -->
+                            <br>
+                            <label for="quantity">Quantity:</label>
+                            <input type="text" id="quantity">
+                            <br>
+                            <label for="price">Price:</label>
+                            <input type="text" id="price">
+                            <br>
+                            <label for="expireDate">ExpireDate:</label>
+                            <input type="text" id="expireDate">
+                            <br>
+                            <label for="discount">Discount ( % ) </label>
+                            <input type="text" id="discount">
+                            <br>
+                            <button onclick="addData()" class="bg-primary">Submit</button>
+                            <button onclick="closeModal()" class=" close-btn bg-danger">Close</button>
+
+                        </div>
+                    </div>
+
+                    <!-- Row 03 -->
+                    <div class="row page-Label backGround-color01 pt-3 pb-3 m-1">
+                        <table id="dataTable" class="table-dark table-allign overflow-x:auto">
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>ExpireDate</th>
+                                <th>Discount ( % ) </th>
+                                <th>Buttons</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Customer-Open ############ -->
+            <div id="section-customers">
+                <div class="container-fluid">
+
+                    <!-- Row 01 -->
+                    <div class="row pt-3">
+                        <h4 class="page-Label pt-3">Customers</h4>
+                    </div>
+
+                    <!-- Row 02 -->
+                    <div class="row page-Label pt-3 pb-3 m-1">
+                        <div class="col-1"></div>
+                        <div class="col-2">
+                            <h5> Customer Management </h5>
+                        </div>
+                        <div class="col-5"></div>
+                        <div class="col-3">
+                            <button class="p-3 bg-primary border border-info white-font-setting rounded"
+                                onclick='openCustomerDetailsWindow()'>
+                                + Add New Customers </button>
+                        </div>
+                    </div>
+
+                    <div id='popUpCustomerDetailsWindow' class="popUpWindow">
+                        <table class="my-modal">
+                            <tr>
+                                <th> MemberShip Number:</th>
+                                <td><input type="text" id="membershipNumb"></td>
+                            </tr>
+                            <tr>
+                                <th> Full Name:</th>
+                                <td><input type="text" id="customerName"></td>
+                            </tr>
+                            <tr>
+                                <th> Contact:</th>
+                                <td><input type="text" id="customerContact"></td>
+                            </tr>
+                            <tr>
+                                <th> Address:</th>
+                                <td><input type="text" id="customerAddress"></td>
+                            </tr>
+                            <tr>
+                                <th> DOB:</th>
+                                <td><input type="text" id="customerDob"></td>
+                            </tr>
+                            <tr>
+                                <th> Order History:</th>
+                                <td><input type="text" id="customerorders"></td>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <td>
+                                    <button onclick="addCustomersData()" class="bg-primary">Submit</button>
+                                    <button onclick="closeAddNewCustomerWindow()"
+                                        class=" close-btn bg-danger">Close</button>
+                                </td>
+                            </tr>
+                        </table>
+
+                        <!-- <div class="my-modal">
+                                <label for="code">MemberShip Number:</label>
+                                <input type="text" id="code">
+                                <br>
+                                <label for="name">Full Name:</label>
+                                <input type="text" id="name">
+                                <br>
+                                <label for="category">Contact:</label>
+                                <input type="text" id="category">
+                                <br>
+                                <label for="quantity">Address</label>
+                                <input type="text" id="quantity">
+                                <br>
+                                <label for="expireDate">Item ExpireDate:</label>
+                                <input type="text" id="expireDate">
+                                <br>
+                                <label for="suppliers">Item Suppliers:</label>
+                                <input type="text" id="suppliers">
+                                <br>
+                                <button onclick="addData()" class="bg-primary">Submit</button>
+                                <button onclick="closeModal()" class=" close-btn bg-danger">Close</button>                                                                                              
+                            </div> -->
+                    </div>
+
+                    <!-- Row 03 -->
+                    <div class="row page-Label backGround-color01 pt-3 pb-3 m-1">
+                        <table id="customerTable" class="table-dark table-allign overflow-x:auto">
+                            <tr>
+                                <th>Code</th>
+                                <th>Name</th>
+                                <th>Category</th>
+                                <th>Quantity</th>
+                                <th>ExpireDate</th>
+                                <th>Suppliers</th>
+                                <th>Buttons</th>
+                            </tr>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="JS/dashBoardScript.js"></script>
+    <script src="JS/itemScript.js"></script>
+    <script src="JS/customersScript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
